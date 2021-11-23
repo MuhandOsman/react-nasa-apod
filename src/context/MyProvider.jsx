@@ -13,9 +13,6 @@ const MyProvider = (props) => {
   const inputRef = useRef()
 
   
-
-
-
   useEffect(() => {
     const getData = async () => {
       try {

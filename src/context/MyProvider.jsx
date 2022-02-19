@@ -28,8 +28,6 @@ const MyProvider = (props) => {
 
   if (result.loading) {return <h2>Loading...</h2> } 
 
-  console.log(result);
-
   
   const saveDate = (e) => {
     setDate( e.target.value)

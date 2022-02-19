@@ -28,7 +28,7 @@ const About = () => {
         <section className="about">
             <h1>Nasa Picture of the day</h1>
             <form>
-               <label >Choose a date between 1996-2021 </label>
+               <label >Choose a date between 1996-Today </label>
                <input type="date" name="date" min="1996-01-01" value={date} onChange={saveDate}/>
            </form>
             <div className="container">

@@ -2,7 +2,7 @@ import React, { useEffect, useState,useRef } from 'react'
 import MyContext from './MyContext'
 
 const MyProvider = (props) => {
-    const key = process.env.REACT_APP_KEY
+    const key = "5SXoI9KV6rMNAPbf88PGcIkz1m7VXyTm0G4pSsv9"
 
   const [result,setResult] = useState({data:[], loading:true})
   const [counter,setCounter] = useState({data:[], loading:true})

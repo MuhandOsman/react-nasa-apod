@@ -69,7 +69,7 @@ section {
 }
 
 .text {
-  width: 40vw;
+  width: 90%;
   margin: 1rem 0;
   padding: 1rem 1.5rem;
   background-color: rgba(0, 0, 0, 0.418);
